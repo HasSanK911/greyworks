@@ -1,0 +1,120 @@
+.main-div{
+    background-image: url(../assets/back.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    /* filter: brightness(50%); */
+    color: white;
+}
+.busy{
+font-weight: 400 !important;
+font-size: 95px;
+line-height: 114px;
+color: white;
+}
+.designing{
+    font-weight: 100 !important;
+    font-style: italic;
+    font-size: 95px;
+    line-height: 114px;
+    color: white;
+    text-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-div{
+    max-width: 864px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+h1 {
+    font-weight: 400 !important;
+    font-size: 95px;
+    line-height: 114px;
+    color: white;
+}
+
+.light {
+    font-weight: 400 !important;
+font-size: 95px;
+line-height: 114px;
+color: white;
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.contact {
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.say-hi {
+    width: 104px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #0093E8;
+    border: none;
+font-weight: 700;
+font-size: 24px;
+line-height: 30.31px;
+letter-spacing: 0%;
+font-family: "Trade Gothic LT W03 Bold Ext";    
+}
+
+.say-hi:hover {
+    background-color: #0056b3;
+}
+.mail{
+    font-family: "Trade Gothic LT W03 Bold Ext";font-weight: 500;
+font-size: 24px;
+line-height: 30.31px;
+letter-spacing: 0%;
+color: white;
+text-decoration: none;
+
+}
+h1 i{
+    font-weight: 300 !important;
+}
+
+@media screen and (max-width:992px){
+    h1, .light{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:600px){
+    h1, .light{
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .image-mask img{
+        width: 100%;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+    }
+    .mail{
+        font-size: 17px;
+    }
+    .say-hi{
+        font-size: 17px;
+        width: 83px;
+    }
+}
